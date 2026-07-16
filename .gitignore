@@ -1,0 +1,50 @@
+# Credentials
+.env
+.env*.local
+*.backup*
+backup_secrets.env
+local.properties
+
+# Dependencies
+node_modules/
+
+# Expo/React Native build output
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Android build
+app/build/
+.gradle/
+.kotlin/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+*.orig.*
+
+# Metro bundler
+.metro-health-check*
+.android/
+
+# Debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Typescript build
+*.tsbuildinfo
