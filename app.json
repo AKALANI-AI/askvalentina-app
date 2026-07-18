@@ -15,8 +15,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
+      }
     },
     "web": {
       "bundler": "metro",
@@ -34,7 +33,25 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-web-browser"
+      "expo-web-browser",
+      "expo-haptics",
+      "expo-image",
+      "expo-image-picker",
+      "expo-linear-gradient",
+      "expo-notifications",
+      "expo-device",
+      "expo-auth-session",
+      "expo-status-bar",
+      "expo-secure-store",
+      "expo-clipboard",
+      "expo-constants",
+      "expo-crypto",
+      "expo-linking",
+      "expo-network",
+      "expo-system-ui",
+      "@react-native-async-storage/async-storage",
+      "react-native-gesture-handler",
+      "react-native-reanimated"
     ],
     "experiments": {
       "typedRoutes": true

@@ -339,6 +339,21 @@ Home Screen
 
 ---
 
+## Crash Fix (iOS 18+)
+
+### Problem
+The app immediately crashes on launch on iOS 18+ due to a conflict between `expo-splash-screen` and `react-native-edge-to-edge`. The `edgeToEdgeEnabled` flag in `app.json` android config conflicts with the splash screen exit logic on newer iOS versions.
+
+### Resolution
+- Removed `"edgeToEdgeEnabled": true` from the android section of `app.json`
+- Added all missing native module config plugins to the plugins array (18 plugins added)
+- `react-native-edge-to-edge` dependency should be removed from `package.json` since it's no longer needed with Expo SDK 53
+
+### Recovery Steps
+1. Delete stale `ios/` and `android/` native folders
+2. Run `npx expo prebuild --clean` to regenerate fresh native configs
+3. Test on iOS simulator (simulating iOS 18+ behavior) AND physical device
+
 ## License & Attribution
 
 Powered by OnSpace.AI — AskValentina Psychic Platform  
