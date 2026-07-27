@@ -1,4 +1,4 @@
-package com.anonymous.onspaceapp
+package com.AskValentina.app
 
 import android.app.Application
 import android.content.res.Configuration

@@ -10,14 +10,14 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.onspaceapp"
+      "bundleIdentifier": "com.AskValentina.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.onspaceapp"
+      "package": "com.AskValentina.app"
     },
     "web": {
       "bundler": "metro",
@@ -38,6 +38,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "986f4d3e-653c-4648-84a5-70ec8efb8fa6"
+      }
     }
   }
 }

@@ -1,4 +1,4 @@
-package com.anonymous.onspaceapp
+package com.AskValentina.app
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build
