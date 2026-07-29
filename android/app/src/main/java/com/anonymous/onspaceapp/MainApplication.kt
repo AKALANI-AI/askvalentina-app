@@ -1,4 +1,4 @@
-package com.AskValentina.app
+package com.askvalentina.app
 
 import android.app.Application
 import android.content.res.Configuration

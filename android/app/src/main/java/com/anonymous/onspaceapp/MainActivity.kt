@@ -1,4 +1,4 @@
-package com.AskValentina.app
+package com.askvalentina.app
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build
