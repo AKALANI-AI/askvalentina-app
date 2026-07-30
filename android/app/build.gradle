@@ -89,7 +89,7 @@ android {
 
     namespace 'com.askvalentina.app'
     defaultConfig {
-        applicationId 'com.askvalentina.app'
+        applicationId 'com.AskValentina.app'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 2
