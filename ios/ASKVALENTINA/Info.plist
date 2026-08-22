@@ -28,7 +28,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>askvalentina</string>
-          <string>com.askvalentina.app</string>
+          <string>com.valentinalomborg.askvalentina</string>
         </array>
       </dict>
     </array>

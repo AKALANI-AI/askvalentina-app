@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.askvalentina.app"
+      "bundleIdentifier": "com.valentinalomborg.askvalentina"
     },
     "android": {
       "adaptiveIcon": {
